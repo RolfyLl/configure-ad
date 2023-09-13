@@ -110,12 +110,18 @@ Now I was able to log into Client-1 as a normal, non-administrative user.
 <br />
 
 <p>
-<img src="https://i.imgur.com/EJ0r7Sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yWbmQcf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Dz2k91L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hklMf54.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
-Set the Domain Controller’s NIC Private IP address to be static. Then i
-Create the Client VM (Windows 10) named “Client-1”. Used the same Resource Group and Vnet that was created with DC-1. I
-Ensure that both VMs are in the same Vnet.
+Create a bunch of additional users and attempt to log into client-1 with one of the users
+Login to DC-1 as jane_admin
+Open PowerShell_ise as an administrator
+Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+Run the script and observe the accounts being created
+When finished, open ADUC and observe the accounts in the appropriate OU
+attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+
 </p>
 <br />
