@@ -59,6 +59,50 @@ I Logged in to the Domain Controller and enabled ICMPv4 on the local Windows fir
 <img src="https://i.imgur.com/01I31vA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+in this part of the lab, I downloaded Active Directory Domain Services. Set up a new forest as RolphyLluveres.com, restart, and log back into DC-1 as a user. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/EJ0r7Sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
+Set the Domain Controller’s NIC Private IP address to be static. Then i
+Create the Client VM (Windows 10) named “Client-1”. Used the same Resource Group and Vnet that was created with DC-1. I
+Ensure that both VMs are in the same Vnet.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/EJ0r7Sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
+Set the Domain Controller’s NIC Private IP address to be static. Then i
+Create the Client VM (Windows 10) named “Client-1”. Used the same Resource Group and Vnet that was created with DC-1. I
+Ensure that both VMs are in the same Vnet.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/EJ0r7Sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
+Set the Domain Controller’s NIC Private IP address to be static. Then i
+Create the Client VM (Windows 10) named “Client-1”. Used the same Resource Group and Vnet that was created with DC-1. I
+Ensure that both VMs are in the same Vnet.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/EJ0r7Sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
+Set the Domain Controller’s NIC Private IP address to be static. Then i
+Create the Client VM (Windows 10) named “Client-1”. Used the same Resource Group and Vnet that was created with DC-1. I
+Ensure that both VMs are in the same Vnet.
 </p>
 <br />
