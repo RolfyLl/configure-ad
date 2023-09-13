@@ -88,10 +88,10 @@ User Hector_admin was my admin account from now on.
 <img src="https://i.imgur.com/AWosORO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
-Set the Domain Controller’s NIC Private IP address to be static. Then i
-Create the Client VM (Windows 10) named “Client-1”. Used the same Resource Group and Vnet that was created with DC-1. I
-Ensure that both VMs are in the same Vnet.
+In this section of the lab, I set Client-1’s DNS settings to the DC’s Private IP address (10.0.0.4) 
+From the Azure Portal, restarted Client-1. Then Login into Client-1 using Remote Desktop as the original local admin and join it to the domain. Lastly
+Logged into the Domain Controller and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+
 </p>
 <br />
 
