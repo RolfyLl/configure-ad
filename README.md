@@ -96,13 +96,17 @@ Logged into the Domain Controller and verify Client-1 shows up in Active Directo
 <br />
 
 <p>
-<img src="https://i.imgur.com/EJ0r7Sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OmIrNfk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/x2GiNfy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
 </p>
 <p>
-First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
-Set the Domain Controller’s NIC Private IP address to be static. Then i
-Create the Client VM (Windows 10) named “Client-1”. Used the same Resource Group and Vnet that was created with DC-1. I
-Ensure that both VMs are in the same Vnet.
+Setup Remote Desktop for non-administrative users on Client-1
+Log into Client-1 as RolphyLluveres.com\Hector_admin and open system properties
+Click “Remote Desktop”
+Allow “domain users” access to remote desktop
+You can now log into Client-1 as a normal, non-administrative user now
+
 </p>
 <br />
 
