@@ -101,11 +101,10 @@ Logged into the Domain Controller and verify Client-1 shows up in Active Directo
   
 </p>
 <p>
-Setup Remote Desktop for non-administrative users on Client-1
-Log into Client-1 as RolphyLluveres.com\Hector_admin and open system properties
-Click “Remote Desktop”
+Here I setup Remote Desktop for non-administrative users on Client-1
+Logged into Client-1 as RolphyLluveres.com\Hector_admin and open system properties
 Allow “domain users” access to remote desktop
-You can now log into Client-1 as a normal, non-administrative user now
+Now I was able to log into Client-1 as a normal, non-administrative user.
 
 </p>
 <br />
