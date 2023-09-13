@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create an Admin and Normal User Account in AD
 - Join Client-1 to your domain (RolphyLluveres.com)
 - Setup Remote Desktop for non-administrative users on Client-1
-- Create a bunch of additional users and attempt to log into client-1 with one of the users
+- Create 10,000 additional users and attempt to log into client-1 with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -115,13 +115,11 @@ Now I was able to log into Client-1 as a normal, non-administrative user.
 <img src="https://i.imgur.com/hklMf54.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a bunch of additional users and attempt to log into client-1 with one of the users
-Login to DC-1 as jane_admin
-Open PowerShell_ise as an administrator
-Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
-Run the script and observe the accounts being created
+In the last part of the lab, I Created 10,000 additional users and attempted to log into client-1 with one of the users
+Login to DC-1 as Hector_admin, Open PowerShell_ise as an administrator
+Create a new File and paste the contents of the script into it. Ran the script and observed the accounts being created
 When finished, open ADUC and observe the accounts in the appropriate OU
-attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+attempt to log into Client-1 with one of the accounts
 
 </p>
 <br />
