@@ -70,7 +70,7 @@ In this part of the lab, I downloaded Active Directory Domain Services. Set up a
   
 </p>
 <p>
-In Active Directory Users and Computers (ADUC), I create two an Organizational Unit (OU) called
+In Active Directory Users and Computers (ADUC), I created two Organizational Unit (OU) called
  
   - _EMPLOYEES
   - _ADMINS
@@ -84,7 +84,8 @@ User Hector_admin was my admin account from now on.
 <br />
 
 <p>
-<img src="https://i.imgur.com/EJ0r7Sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xscFRa7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AWosORO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 First, I started with Creating the Domain Controller VM (Windows Server 2022) named “DC-1”
